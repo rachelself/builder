@@ -1,0 +1,178 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url(/img/tree-wallpaper-2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.tree{
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  display: inline-block;
+  margin: 10px 10px 50px 10px;
+  border: 2px dotted #54860e;
+  border-radius: 5px;
+  padding: 10px;
+  position: relative;
+  background-color: #c7e17a;
+}
+
+// .height, .health{
+//   font-size: 10px;
+//   float: left;
+//   margin-right: 3px;
+// }
+
+#controls{
+  background: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px;
+  width: 40%;
+  height: 100%;
+}
+
+#display{
+  background: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 20px;
+  width: 40%;
+  height: 200px;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+
+#username{
+  text-transform: capitalize;
+  font-size: 18px;
+  color: green;
+}
+
+#username input, #username select{
+  margin: 20px;
+}
+
+.balance{
+  width: 90%;
+  height: 30px;
+  background-color: white;
+  border: 2px dotted #54860e;
+  margin-bottom: 10px;
+}
+
+input, button{
+  margin-right: 5px;
+}
+
+h1{
+  margin: 0 auto;
+  font-size: 20px;
+  color: white;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+#forest{
+  background: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  border-radius: 5px;
+  margin: 70px 20px;
+  position: absolute;
+  top: 250px;
+  left: 20px;
+}
+
+#seed, #getforest{
+  display: inline-block;
+}
+
+.seed{
+  background-image: url(/img/seed.png);
+}
+
+
+.sapling{
+  background-image: url(/img/babyoak.png);
+}
+
+.treenager{
+  background-image: url(/img/teenager.png);
+}
+
+.adult{
+  background-image: url(/img/adult.jpg);
+}
+
+.dead{
+  background-image: url(/img/dead.png);
+  cursor: none;
+}
+
+.alive{
+  cursor: pointer;
+}
+
+.chopped{
+  background-image: url(/img/stump.png);
+  cursor: none;
+}
+
+button.chop{
+  position: absolute;
+  top: 120px;
+  left: 0px;
+  z-index: 3;
+  font-size: 11px;
+  margin: 0;
+  margin-right: 2px;
+  width: 100%;
+  display: block;
+  //float: right;
+}
+
+button.grow{
+  position: absolute;
+  top: 100px;
+  left: 0px;
+  z-index: 3;
+  font-size: 11px;
+  margin: 0;
+  width: 100%;
+  display: block;
+  //float: left;
+}
+
+.balance-wood, .balance-cash{
+    display: inline-block;
+    background-color: white;
+    width: 30px;
+    height: 25px;
+    margin: 0 5px;
+    vertical-align: center;
+    padding:3px;
+}
+
+#balance{
+
+  display: inline-block;
+}
+
+.sell{
+  // font-size: 10px;
+}
+
+.height{
+  position: relative;
+  top: -5px;
+  left: -5px;
+  font-size: 8px;
+}
